@@ -7,4 +7,97 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+}
+
+h2 {
+  color: #06365f;
+  font-weight: bold;
+}
+.main {
+  display:flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.phones {
+  margin-right: 40px;
+}
+
+.right-side {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+
+.brand, .login{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  background: linear-gradient(0deg, rgba(6,54,95,1) 0%, 
+            rgba(28,83,128,1) 62%);
+  box-shadow: 0px 0px 2px ;
+  padding: 5px;
+  border: 1px solid #06365f;
+  width: 90px;
+}
+
+.login button {
+  background: none;
+  border: none;
+  color:white;
+  font-size: 1em;
+  font-weight:bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.general-text {
+  background: url("/images/frame.png");
+  background-repeat:no-repeat;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:10px;
+}
+
+.info {
+  padding-bottom:10px;
+}
+
+.button-app {
+  display:flex;
+  justify-content: flex-start;
+}
+
+.android {
+  margin-left: 20px;
+}
+.links {
+ 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  clear: both;
+  font-size: 0.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+} 
+
+.links li {
+  display:flex;
+} 
+
+ul {
+  color:#1c5380;
+}
+
+.links p {
+  color:grey;
+  padding-left: 20px;
 }
